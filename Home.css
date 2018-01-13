@@ -3,10 +3,9 @@ body{
 }
 
 h1{
-
-        
-    font-family:"proxima-nova";
-    /*find a way to add abril-fatface*/
+    
+    font-family:"ebony", "Helvetica Neue";
+    
     
     font-weight: 700;
     font-size: 60px;
