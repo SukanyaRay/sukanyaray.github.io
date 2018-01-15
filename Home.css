@@ -1,14 +1,14 @@
 body{
     background: whitesmoke;
+    font-family: "Justus-Pro", "Helvetica Neue";
+    
+    font-weight:800;
 }
 
 h1{
     
-    font-family:"Justus-Pro","Helvetica Neue";
-    /*find a way to add abril-fatface*/
-    
-    font-weight: 600;
-    font-size: 40px;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 45px;
     color: black;
     
@@ -17,5 +17,26 @@ h1{
     
     margin-left: 10px;
     margin-top: 0px;
-    
 }
+
+.display {
+    text-align: center; 
+}
+
+.display a {
+    padding: 50px;
+    display: inline-block;
+}
+
+.float{
+    overflow:hidden;
+    text-align: center;
+}
+
+.float a{
+    float:left;
+    padding:10px;
+
+}
+
+
