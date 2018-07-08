@@ -26,6 +26,7 @@ body{
 .navigation-bar img{
 	float:left;
 	padding-left: 10px;
+
 }
 
 .navigation-bar ul{
@@ -62,8 +63,14 @@ body{
 	top: 100px;
 }
 
+#introduction{
+	text-align: center;
+	padding-top: 5px;
+}
+
 h1 {
 	font-family: "Adelle", sans-serif;
 	font-weight: 200;
+	font-size: 30;
 }
 
