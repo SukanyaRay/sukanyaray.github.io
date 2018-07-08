@@ -15,10 +15,12 @@ body{
 }
 
 .navigation-bar{
+	position: fixed;
 	padding-top:15px;
 	height:70px;
 	width:100%;
 	text-align:center;
+	z-index: 1;
 }
 
 .navigation-bar img{
@@ -54,3 +56,9 @@ body{
 	padding: 5px 15px;
 	opacity:0.7;
 }
+
+.main-body{
+	position: relative;
+	top: 300px;
+}
+
