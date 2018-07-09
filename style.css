@@ -1,6 +1,7 @@
 body{
 	margin:0;
 	padding:0;
+	background: #edefed;
 }
 
 .logo{
@@ -50,8 +51,9 @@ body{
 
 .navigation-bar li a{
 	color: black;
-	font-size: 16px;
-	font-family: "Adelle", sans-serif;
+	font-size: 15px;
+	font-family: "Roboto";
+	font-weight: 400;
 	text-decoration: none;
 	line-height: 16px;
 	padding: 5px 15px;
@@ -64,13 +66,27 @@ body{
 }
 
 #introduction{
-	text-align: center;
+	text-align: left;
 	padding-top: 5px;
+	padding-left: 90px;
+	width: 25%;
+	color: black;
 }
 
-h1 {
-	font-family: "Adelle", sans-serif;
+h3 {
+	font-family: "Roboto";
+	font-size: 25;
 	font-weight: 200;
-	font-size: 30;
+	padding: 0;
+	margin: 0;
+}
+
+h6 {
+	font-family: "Roboto";
+	font-size: 15;
+	font-weight: 200;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	margin: 0;
 }
 
