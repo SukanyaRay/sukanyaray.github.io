@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" href="https://use.typekit.net/lgd4lyn.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="navigation-bar">
+		<div id="navigation-container">
+			<!--Image uploaded on Git-->
+			<a href="https://sukanyaray.github.io">
+				<img src="ME_an avatar(icon).png" style="float:left;width:60px;height:60px">
+			</a>
+			<ul>
+				<li><a href="https://sukanyaray.github.io">Work</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="main-body">
+		<div id="left-col">
+			<div id="introduction">
+				<h3><b>Hit me up!</b><br>I kinda like getting mail.<h3>
+			</div>
 
+		</div>
+		<div id="midleft-col">
+		</div>
+		<div id="mid-col">
+		</div>
+		<div id="midright-col">
+		</div>
+		<div id="right-col">
+		</div>
+</html>
