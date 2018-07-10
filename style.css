@@ -40,6 +40,10 @@ body{
 	vertical-align: top;
 }
 
+.navigation-bar a:hover{
+	color: #ff3700;
+}
+
 .navigation-bar li{
 	list-style-type: none;
 	padding:0px;
@@ -65,6 +69,7 @@ body{
 	top: 100px;
 	padding-left: 90px;
 }
+
 
 #left-col {
 	float: left;
@@ -109,16 +114,15 @@ body{
 
 #introduction{
 	text-align: left;
-	padding-top: 0px;
 }
 
 #pages {
 	width: 95%;
-
 }
 
 #p1 {
 	line-height: 60px;
+	padding-top: 250px;
 	padding-bottom: 40px;
 }
 
@@ -162,9 +166,25 @@ h1 {
 	margin: 0;
 }
 
+h2 {
+	font-family: "Roboto";
+	font-size:800;
+	line-height: 30px;
+	font-weight: 200;
+	margin: 0;
+}
+
 h3 {
 	font-family: "Roboto";
 	font-size: 25;
+	font-weight: 200;
+	padding: 0;
+	margin: 0;
+}
+
+h4{
+	font-family: "Roboto";
+	font-size: 14;
 	font-weight: 200;
 	padding: 0;
 	margin: 0;
