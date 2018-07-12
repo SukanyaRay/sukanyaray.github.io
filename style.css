@@ -79,6 +79,14 @@ body{
 	color: black;
 }
 
+#midleft-col-contact{
+	float: left;
+	padding-top:50px;
+	width: 100%;
+	height: 500px;
+	color: black;
+}
+
 #midleft-col {
 	float: left;
 	width: 20%;
@@ -93,6 +101,10 @@ body{
 	padding-bottom: 50px;
 }
 
+#mid-col a{
+	color:#ff3700;
+}
+
 #midright-col{
 	float: left;
 	width: 20%;
@@ -103,14 +115,9 @@ body{
 	width: 15%;
 }
 
-/*#thumbnail-img{
-	position: relative;
-	top: 100px;
-	width: 98%;
-	height: 400px;
-	border: 1px solid black;
-	background-image: none;
-}*/
+#blankright-col{
+	width:5%;
+}
 
 #introduction{
 	text-align: left;
@@ -121,26 +128,92 @@ body{
 }
 
 #p1 {
-	line-height: 60px;
+	line-height: 20px;
 	padding-top: 250px;
 	padding-bottom: 40px;
 }
 
-
 #p2 {
-	line-height: 60px;
+	line-height: 20px;
 	padding-bottom: 40px;
 }
 
 #p3 {
-	line-height: 60px;
+	line-height: 20px;
 	padding-bottom: 40px;
 }
 
 #p4 {
-	line-height: 60px;
+	line-height: 20px;
 	padding-bottom: 40px;
 }
+
+/*Contact form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    border: solid #ccc;
+    border-radius: 20px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #efefef;
+    color: #ff3700;
+    font:"Roboto";
+    padding: 12px 20px;
+    border: solid #ff3700;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ff3700;
+    color:#efefef;
+}
+
+label{
+	font: normal 15px "Roboto" !important;
+	color: #ff3700;
+	padding-bottom: 5%;
+}
+
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 90%;
+    margin-top: 6px;
+    position: relative;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+/*------------*/
+
 
 
 a {
@@ -155,6 +228,7 @@ a:hover {
 p{
 	font-family: "Roboto";
 	font-size: 15;
+	font-weight: 100;
 }
 
 
@@ -168,7 +242,7 @@ h1 {
 
 h2 {
 	font-family: "Roboto";
-	font-size:800;
+	font-size: 800;
 	line-height: 30px;
 	font-weight: 200;
 	margin: 0;
@@ -184,7 +258,15 @@ h3 {
 
 h4{
 	font-family: "Roboto";
-	font-size: 14;
+	font-size: 24;
+	font-weight: 200;
+	padding: 0;
+	margin: 0;
+}
+
+h5{
+	font-family: "Roboto";
+	font-size: 22;
 	font-weight: 200;
 	padding: 0;
 	margin: 0;
