@@ -114,6 +114,7 @@ div.gallery img {
   	grid-template-columns: 250px 250px 250px;
   	grid-gap: 10px;
   	padding: 30px;
+  	padding-top: 50px;
 }
 
 .responsive {
@@ -153,6 +154,57 @@ div.desc {
 /*------------*/
 /*Peru by the numbers*/
 
+#top-color{
+	background-color: #63c68c;
+	top:0px;
+	width:100%;
+	height:500px;
+}
+
+#main-image-container{
+	padding-top: 20px;
+}
+
+#work-container{
+	display: grid;
+  	grid-template-columns: 250px 250px 250px;
+  	grid-gap: 10px;
+  	padding: 30px;
+  	padding-top: 50px;
+}
+
+.project-info{
+	display: grid;
+  	grid-template-columns: 150px 150px 150px 150px;
+  	grid-gap: 100px;
+  	padding-top: 50px;
+  	padding-bottom: 20px;
+	
+}
+
+#project-name{
+	width:300px;
+	text-align: left;
+}
+
+#type{
+	width:150px;
+	text-align: center;
+}
+
+#professional{
+	width:150px;
+	text-align: center;
+}
+
+#client{
+	width:150px;
+	text-align: center;
+}
+
+#summary{
+	padding:40px;
+}
 
 
 
