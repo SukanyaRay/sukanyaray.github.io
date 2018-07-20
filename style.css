@@ -151,6 +151,7 @@ div.gallery img {
 	padding-top: 20px;
 }
 
+
 #work-container{
 	display: grid;
   	grid-template-columns: 250px 250px 250px;
@@ -195,6 +196,16 @@ div.gallery img {
 /*--Cubeworld-*/
 #top-color-cubeworld{
 	background-color: #eaea00;
+	top:0px;
+	width:100%;
+	height:500px;
+}
+
+/*------------*/
+/*------------*/
+/*--Haymarket-*/
+#top-color-cubeworld{
+	background-color: #9be0d7;
 	top:0px;
 	width:100%;
 	height:500px;
