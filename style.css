@@ -212,6 +212,15 @@ div.gallery img {
 }
 
 /*------------*/
+/*--Colt Single-*/
+#top-color-colt{
+	background-color: #ff3600;
+	top:0px;
+	width:100%;
+	height:500px;
+}
+
+/*------------*/
 
 
 a {
