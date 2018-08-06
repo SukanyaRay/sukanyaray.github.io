@@ -64,14 +64,6 @@ body{
 	opacity:0.7;
 }
 
-/*#introduction{
-	position: fixed;
-	padding-top:15px;
-	width:80%;
-	text-align:left;
-	z-index: 1;
-}*/
-
 .main-body{
 	position: relative;
 	padding-left: 90px;
@@ -86,8 +78,7 @@ body{
 	padding-left: 90px;
 }
 
-
-
+/*As seen on home page*/
 #section-title {
 	float: left;
 	width: 5%;
@@ -97,25 +88,49 @@ body{
 	color: black;
 }
 
+#body-text{
+	padding-top: 80px;
+}
 
-div.gallery img {
+#body-text{
+	line-height:30px;
+}
+
+
+/*div.gallery img {
     float: left;
 	padding-right:20px;
-
-}
+}*/
 
 
 * {
     box-sizing: 250px;
 }
 
+.main-story{
+	display:grid;
+	grid-template-columns: 770px;
+	border:solid #ff3700;
+
+}
+
+
 #work-container{
 	display: grid;
   	grid-template-columns: 250px 250px 250px;
-  	grid-gap: 50px;
-  	padding: 30px;
-  	padding-top: 50px;
-  	padding-bottom: 50px;
+  	grid-gap: 55px;
+  	padding-top: 15px;
+}
+
+.responsive-main{
+	float: left;
+	left: 0px;
+    width: 770px;
+    height: 250px;
+}
+
+#main-text{
+	padding:10px;
 }
 
 .responsive {
@@ -124,17 +139,6 @@ div.gallery img {
     width: 250px;
     height: 250px;
 }
-
-
-
-/*div.desc {
-	padding-left: 0px;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	width:250px;
-    text-align: left;
-    font-family: "Roboto";
-}*/
 
 
 /*------------*/
@@ -151,15 +155,7 @@ div.gallery img {
 	padding-top: 20px;
 }
 
-
-#work-container{
-	display: grid;
-  	grid-template-columns: 250px 250px 250px;
-  	grid-gap: 10px;
-  	padding: 30px;
-  	padding-top: 50px;
-}
-
+/*project info------------------*/
 .project-info{
 	display: grid;
   	grid-template-columns: 150px 150px 150px 150px;
@@ -192,6 +188,10 @@ div.gallery img {
 #summary{
 	padding:40px;
 }
+
+/*----------------------------*/
+
+
 /*------------*/
 /*--Cubeworld-*/
 #top-color-cubeworld{
@@ -239,41 +239,45 @@ p{
 }
 
 
+
 h1 {
-	font-family: "Adelle";
-	font-size: 100;
-	line-height: 100px;
-	font-weight: 300;
+	font-family: "Roboto";
+	font-size: 80;
+	line-height: 85px;
+	font-weight: 200;
+	padding: 0;
 	margin: 0;
 }
 
 h2 {
 	font-family: "Roboto";
-	font-size: 20;
+	font-size: 30;
+	line-height: 19px;
 	font-weight: 200;
 	padding: 0;
 	margin: 0;
 }
 
 h3 {
-	font-family: "Adelle";
-	font-size: 20;
-	font-weight: 600;
+	font-family: "Roboto";
+	font-size: 16;
+	line-height: 19px;
+	font-weight: 200;
+	padding: 0;
 	margin: 0;
 }
 
 h4{
 	font-family: "Adelle";
-	font-size: 20;
-	line-height: 25px;
+	font-size: 18;
 	font-weight: 400;
 	margin: 0;
 }
 
 h5{
 	font-family: "Roboto";
-	font-size: 20;
-	line-height: 30px;
+	font-size: 12;
+	line-height: 15px;
 	color:black;
 	font-weight: 200;
 	margin: 0;
