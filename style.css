@@ -1,12 +1,7 @@
 body{
-	margin:0;
-	padding:0;
-	background: #ffffff;
+	background: #111111;
 }
 
-.logo{
-	float:left;
-}
 
 /*Navigation Bar*/
 #navigation-container{
@@ -54,310 +49,145 @@ body{
 }
 
 .navigation-bar li a{
-	color: black;
-	font-size: 15px;
-	font-family: "Roboto";
+	color: #ff3700;
+	-webkit-text-stroke: .5px #ff3700;
+	font-size: 50px;
+	font-family: "Helvetica", sans-serif;
 	font-weight: 400;
-	text-decoration: none;
 	line-height: 16px;
-	padding: 5px 15px;
-	opacity:0.7;
-}
-
-.main-body{
-	position: relative;
-	padding-left: 90px;
-	top:100px;
-
-}
-
-.section-container{
-	text-align: left;
-	width:900px;
-	padding-top: 50px;
-	padding-left: 90px;
-}
-
-/*As seen on home page*/
-#section-title {
-	float: left;
-	width: 5%;
-	height: 10px;
-	padding-top: 50px;
-	padding-bottom: 20px;
-	color: black;
-}
-
-#body-text{
-	padding-top: 80px;
-}
-
-#body-text{
-	line-height:30px;
-}
-
-
-/*div.gallery img {
-    float: left;
-	padding-right:20px;
-}*/
-
-
-* {
-    box-sizing: 250px;
-}
-
-.main-story{
-	display:grid;
-	grid-template-columns: 770px;
-	border:solid #ff3700;
-
-}
-
-
-#work-container{
-	display: grid;
-  	grid-template-columns: 250px 250px 250px;
-  	grid-gap: 55px;
-  	padding-top: 15px;
-}
-
-.responsive-main{
-	float: left;
-	left: 0px;
-    width: 770px;
-    height: 250px;
-}
-
-#main-text{
-	padding:10px;
-}
-
-.responsive {
-    float: left;
-	left: 0px;
-    width: 250px;
-    height: 250px;
-}
-
-
-/*------------*/
-/*Peru by the numbers*/
-
-#top-color{
-	background-color: #63c68c;
-	top:0px;
-	width:100%;
-	height:500px;
-}
-
-#main-image-container{
-	padding-top: 20px;
-}
-
-/*project info------------------*/
-.project-info{
-	display: grid;
-  	grid-template-columns: 150px 150px 150px 150px;
-  	grid-gap: 100px;
-  	padding-top: 50px;
-  	padding-bottom: 20px;2
-	
-}
-
-#project-name{
-	width:300px;
-	text-align: left;
-}
-
-#type{
-	width:150px;
-	text-align: center;
-}
-
-#professional{
-	width:150px;
-	text-align: center;
-}
-
-#client{
-	width:150px;
-	text-align: center;
-}
-
-#summary{
-	padding:40px;
-}
-
-/*----------------------------*/
-
-
-/*------------*/
-/*--Cubeworld-*/
-#top-color-cubeworld{
-	background-color: #eaea00;
-	top:0px;
-	width:100%;
-	height:500px;
-}
-
-/*------------*/
-/*------------*/
-/*--Haymarket-*/
-#top-color-haymarket{
-	background-color: #9be0d7;
-	top:0px;
-	width:100%;
-	height:500px;
-}
-
-/*------------*/
-/*--Colt Single-*/
-#top-color-colt{
-	background-color: #ff3600;
-	top:0px;
-	width:100%;
-	height:500px;
-}
-
-/*------------*/
-
-/*--Akzidenz-Grotesk-*/
-#top-color-akzidenz{
-	background-color: #c9dbc5;
-	top:0px;
-	width:100%;
-	height:500px;
-}
-
-/*------------*/
-
-
-a {
+	padding:15px;
 	text-decoration: none;
-	color: black; /*#ff3700*/
 }
 
-a:hover {
-	color:#ff3700 ;
+.navigation-bar li a:hover{
+	color: #111111;
+	-webkit-text-stroke: .5px #ff3700;
 }
 
-p{
-	font-family: "Roboto";
-	font-size: 15;
-	font-weight: 100;
+.second-col h5{
+	color:#ff3700;
+	grid-column: col-start 2 / span 8 ;
+}
+
+.grid-container{
+	display: grid;
+  	grid-template-columns: repeat(12, [col-start] 1fr);
+  	grid-gap: 125px;
+}
+
+.body-grid-container{
+	display: grid;
+	grid-template-columns: 10% 80% 10%;
+}
+
+.body-second{
+	color: white;
+}
+
+/*Stuff in the Wrapper*/
+.wrapper{
+	display: grid;
+  	grid-template-columns: repeat(12, [col-start] 1fr);
+  	grid-gap: 5px;
+}
+
+.home-title1{
+	grid-column: col-start / span 8;
+	color: white;
+	animation: fadein 3s;
 }
 
 
-
-h1 {
-	font-family: "Roboto";
-	font-size: 80;
-	line-height: 85px;
-	font-weight: 200;
-	padding: 0;
-	margin: 0;
+.title1-image1{
+	grid-column: col-start 1 / span 8 ;
+  	grid-row: 2 / 3;
+  	animation: fadein 3s;
 }
 
-h2 {
-	font-family: "Roboto";
-	font-size: 30;
-	line-height: 19px;
-	font-weight: 200;
-	padding: 0;
-	margin: 0;
+.title1-image2{
+	grid-column: col-start 8 / span 11 ;
+  	grid-row: 2 / 3;
+  	padding-top: 12px;
+  	animation: fadein 3s;
 }
 
-h3 {
-	font-family: "Roboto";
-	font-size: 16;
-	line-height: 21px;
-	font-weight: 200;
-	padding: 0;
-	margin: 0;
+.home-title2{
+	grid-column: col-start / span 5;
+	grid-row:4;
+	animation: fadein 3s;
 }
 
-h4{
-	font-family: "Adelle";
-	font-size: 18;
+.title2-image1{
+	grid-column: col-start / span 12 ;
+  	grid-row: 5;
+}
+
+.summary{
+	grid-column: col-start 5 / span 6 ;
+  	grid-row: 2 / 3;
+  	animation: fadein 3s;
+}
+
+.summary-end{
+	grid-column: col-start 5 / span 6 ;
+  	grid-row: 12 / 13;
+  	animation: fadein 3s;
+  	padding-bottom: 20px;
+}
+
+.project-images{
+	grid-column: col-start / span 12 ;
+  	grid-row: 5 / 12;
+  	animation: fadein 3s;
+}
+
+@keyframes fadein{
+	from{opacity: 0;}
+	to {opacity: 1;}
+}
+
+a{
+	text-decoration: none;
+	color:#ff3700;
+}
+
+a:hover{
+	color: #111111;
+	-webkit-text-stroke: .5px #ff3700;
+}
+
+h1{
+	font-family: "Helvetica",sans-serif;
 	font-weight: 400;
-	margin: 0;
+	font-size: 50px;
+	line-height: 54px;
+}
+
+h2{
+	font-family: "Helvetica",sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 19px;
+}
+
+h3{
+	font-family: "Helvetica",sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 29px;
 }
 
 h5{
-	font-family: "Roboto";
-	font-size: 12;
-	line-height: 15px;
-	color:black;
+	font-family: "Helvetica",sans-serif;
 	font-weight: 200;
-	margin: 0;
+	font-size: 15px;
+	margin-bottom:5px;
 }
 
-
-h6 {
-	font-family: "Roboto";
-	font-size: 15;
-	color:#ff3700;
+h6{
+	font-family: "Helvetica",sans-serif;
 	font-weight: 200;
-	margin: 0;
+	font-size: 15px;
+	margin-top:0px;
+	color:#545454;
 }
-
-
-
-/*@media only screen and (min-width: 1000px){
-	.responsive{
-		width:80%px;
-		padding-left: 30px;
-		padding-top: 50px;
-	}
-}
-
-@media only screen  
-and (min-width : 702px) 
-and (max-width : 1000px) {
-	.section-container{
-		width:250px;
-	}
-}
-
-@media only screen and (max-width: 700px) {
-	.bio {
-		width: 75%;
-	}
-
-    .responsive {
-        width:250px;
-    }
-
-    .desc{
-    	padding: 15px;
-    }
-
-    h3 {
-		font-size: 1.25em;
-	}
-
-	h4 {
-		font-size: 1.25em;
-	}
-}
-
-@media only screen and (max-width: 400px) {
-    .bio{
-    	width:400px;
-    }
-
-    .responsive {
-        width:250px;
-    }
-
-    h3 {
-		font-size: 1em;
-	}
-
-	h4 {
-		font-size: 1em;
-	}
-
-
-}*/
