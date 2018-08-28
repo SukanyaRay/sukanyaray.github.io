@@ -158,11 +158,6 @@ body{
   	margin:0;
 }
 
-.gallery img{
-	margin:100px;
-	transition: transform 0.25s ease;
-	cursor: zoom-in;
-}
 
 input[type=checkbox]{
 	display:none;
