@@ -106,20 +106,6 @@ body{
 }
 
 
-/*.name{
-	float: left;
-	padding-left: 110px;
-	padding-top: 30px;
-	position: fixed;
-	top:0;
-	font-size: 25px;
-	font-family: "Roboto Mono", sans-serif;
-	color: white;
-	font-weight: 400;
-	line-height: 16px;
-	z-index: 1;
-}*/
-
 .grid-container{
 	display: grid;
   	grid-template-columns: repeat(8, 100px);
@@ -326,7 +312,7 @@ input[type=checkbox]:checked ~ label > img {
     color:#f00;
     background-color:rgba(0, 0, 0,0.8);
     width: 300px;
-    height: 550px;
+    height: 410px;
     grid-column:1/ span 3;
   	grid-row: 6 / span 10;
     text-align: center;
