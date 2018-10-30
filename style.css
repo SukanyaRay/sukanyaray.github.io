@@ -1,4 +1,5 @@
 body{
+	margin: 0px;
 	background: #fff;
 }
 
@@ -145,6 +146,20 @@ body{
 	padding-top: 50px;
 }
 
+/*--------------------------adelia-lim.html-------*/
+.body-bg{
+	width: 100%;
+	height: 100%;
+	margin: none;
+	background-color: #bcbcbc;
+}
+
+.gallery-img{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/*--------------------------adelia-lim.html-------*/
+
 
 
 
@@ -165,16 +180,16 @@ h1{
 }
 
 h2{
-	font-family: "Roboto Mono",sans-serif;
+	font-family: "Merriweather",sans-serif;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 25px;
 	line-height: 20px;
 }
 
 h3{
-	font-family: "Helvetica",sans-serif;
+	font-family: "Roboto Mono",sans-serif;
 	font-weight: 400;
-	font-size: 25px;
+	font-size: 15px;
 	line-height: 29px;
 }
 
