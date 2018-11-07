@@ -310,6 +310,12 @@ body{
 	display: block;
 }
 
+.gallery-img{
+	padding-top: 50px;
+	grid-column: 4;
+	grid-row: 4;
+}
+
 
 
 a{
